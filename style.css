@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(fonts/Gilroy-Bold.woff2);
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(fonts/Gilroy-Medium.woff2);
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold";
+  src: url(fonts/Gilroy-Semibold.woff2);
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url(fonts/Gilroy-Regular.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  /* font-family: "Open Sans", sans-serif; */
+  font-style: normal;
+  font-weight: 600;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background: #ffffff;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: 1146px;
+  margin: 0 auto;
+}
+
+a {
+}
+
+.ImgLogo {
+  margin-right: 500px;
+}
+
+.navigation {
+  display: flex;
+  margin-left: 375px;
+  margin-top: 30px;
+  margin-bottom: 89px;
+}
+
+.navigation_blank {
+}
+.navigation_link {
+  font-family: "Gilroy-SemiBold";
+  font-size: 14px;
+  line-height: 16px;
+  color: #f25822;
+  padding-right: 7px;
+  margin-top: 11px;
+}
+
+.content__wrapper {
+  margin-left: 373px;
+}
+
+.content_subTitle {
+  width: 522px;
+  height: 222px;
+  font-family: "Gilroy-Bold";
+  font-size: 60px;
+  line-height: 70px;
+  color: #000000;
+  margin-bottom: 17px;
+}
+
+.content_description {
+  width: 466px;
+  height: 48px;
+  font-family: "Gilroy-Medium";
+  font-size: 20px;
+  line-height: 23px;
+  color: #888888;
+}
+
+.mainImg_1 {
+  width: 544.81px;
+  height: 374.84px;
+}
+
+.content_btns {
+}
+.content_button {
+  width: 140px;
+  height: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+  border-radius: 50px;
+  font-family: "Gilroy-Bold";
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-right: 72px;
+  margin-top: 39px;
+}
+.content_button_play {
+  position: absolute;
+  width: 150px;
+  height: 19px;
+  font-family: "Gilroy-Bold";
+  font-size: 15px;
+  line-height: 18px;
+  color: #aaaaaa;
+  margin-top: 52px;
+  background-color: transparent;
+  border: 0px solid #3498db;
+  margin-bottom: 178px;
+}
+
+.footer_brand {
+  margin-left: 345px;
+}
